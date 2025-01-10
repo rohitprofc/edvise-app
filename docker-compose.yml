@@ -5,6 +5,7 @@ services:
       - "5173:5173"
     volumes:
       - ./frontend:/app
+      - /app/node_modules
     networks:
       - edvise-net
 
